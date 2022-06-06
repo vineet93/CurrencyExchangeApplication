@@ -1,0 +1,30 @@
+Currency Exchange Service.
+http://localhost:8000/currency-exchange/from/USD/to/INR
+http://localhost:8000/currency-exchange/from/USD/to/INR
+
+
+Currency Conversion Service 
+http://localhost:8100/currency-conversion/from/USD/to/INR/quantity/10
+
+h2 database
+http://localhost:8000/h2-console/login.do?jsessionid=3e480d64accd9633a5e05d14d4b9dca6
+
+Naming server(Eureka)
+http://localhost:8761/
+
+
+API Gateway
+- http://localhost:8765/CURRENCY-EXCHANGE/currency-exchange/from/USD/to/INR
+- http://localhost:8765/CURRENCY-CONVERSION/currency-conversion/from/USD/to/INR/quantity/10
+- http://localhost:8765/CURRENCY-CONVERSION/currency-conversion-feign/from/USD/to/INR/quantity/10
+
+- http://localhost:8765/currency-exchange/currency-exchange/from/USD/to/INR
+- http://localhost:8765/currency-conversion/currency-conversion/from/USD/to/INR/quantity/10
+- http://localhost:8765/currency-conversion/currency-conversion-feign/from/USD/to/INR/quantity/10
+
+ http://localhost:8765/currency-exchange/from/USD/to/INR
+- http://localhost:8765/currency-conversion/from/USD/to/INR/quantity/10
+- http://localhost:8765/currency-conversion-feign/from/USD/to/INR/quantity/10
+
+
+https://github.com/in28minutes/spring-microservices-v2/tree/main/04.docker
